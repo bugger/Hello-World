@@ -40,7 +40,7 @@ int APIENTRY _tWinMain(_In_ HINSTANCE hInstance,
 		return FALSE;
 	}
 
-	for (int i = 0; i < 10; i++);
+	for (int i = 0; i < 100; i++);
 
 	hAccelTable = LoadAccelerators(hInstance, MAKEINTRESOURCE(IDC_HELLOWORLD));
 
